@@ -259,7 +259,7 @@ main {
 				background: linear-gradient(to bottom, rgba(60, 65, 68, 0), #3d4144), url("../images/business.jpg"); 
 				margin-right: 0;
 			}
-		}
+		} 
 	}
 }
 
@@ -423,7 +423,7 @@ main {
 	} 
 }
 
-@media only screen and (max-width: 559px) {
+@media only screen and (min-width: 330px) and (max-width: 559px) {
 	header {
 		height: 250px;
 		.header-wrap {
@@ -502,6 +502,90 @@ main {
 		}
 	} 
 } 
+
+@media only screen and (max-width: 329px) {
+	header {
+		height: 200px;
+		.header-wrap {
+			width: 250px;
+			margin: 0 auto;
+			.logo {
+				float: none;
+				margin: 0 auto 0 5px;
+				padding-top: 5px;
+				width: 60px;
+				height: auto;
+			}
+			h1 {
+				font-size: 18px;
+				width: 150px;
+				margin-left: 0;
+				margin-top: 30px;
+				p {
+					font-size: 8px;
+					margin-top: 5px;
+				}
+			}
+			.main-pic {
+				margin-top: -204px;
+				width: 125px;
+				height: auto;
+			}
+		}
+	}
+	main {
+		height: 3150px;
+		.wrap-box {
+			width: 250px;
+			margin: 0 auto;
+			.search {
+				width: 250px;
+				height: 60px;
+				ul {
+					li {
+						margin: 15px 10px 0px 9px;
+						p {
+						font-size: 8px;
+						}
+						img {
+							margin: 5px 0 0 5px;
+							width: 8px;
+							height: auto;
+						}
+					}
+				}
+				form {
+					input[type=text] {
+					    box-sizing: border-box;
+					    border: 1px solid transparent;
+					    background-color: #fff;
+					    outline: none;
+					    font-size: 8px;
+					    margin-top: 10px;
+					    width: 100px;
+					}
+					input[type=submit] {
+						font-size: 8px;
+						background-color: #3d4144;				
+						margin: 10px 5px 0 0;										
+						outline: none;
+						border: 1px solid transparent;
+						padding: 2px 8px;
+					}
+				}
+			} 	
+			.content-bottom {
+				margin-top: 50px;
+				.hair {
+					width: 250px;
+					height: 329px;
+					background-size: 250px 329px;
+					margin: 0 0 10px 0;
+				}  	
+			}
+		}
+	} 
+}
 
 /*DETAILS*/
 
@@ -931,7 +1015,7 @@ main {
 	}
 }
 
-@media only screen and (max-width: 619px) {
+@media only screen and (min-width: 360px) and (max-width: 619px) {
 	.header {
 		height: 250px;
 		.wrap-box {
@@ -1061,7 +1145,7 @@ main {
 				font-size: 12px;
 			}
 			.content-bottom {
-				margin-left: 30px;
+				margin-left: 50px;
 				img {
 					width: 250px;
 					height: auto;
@@ -1071,7 +1155,7 @@ main {
 				}
 			}
 			.content-bottom-last {
-				margin-left: 30px;
+				margin-left: 50px;
 				img {
 					width: 250px;
 					height: auto;
@@ -1083,4 +1167,195 @@ main {
 		}
 	}
 }
+
+@media only screen and (max-width: 359px){
+	.header {
+		height: 135px;
+		.wrap-box {
+			width: 250px;
+			.logo {
+				margin: 10px 0 0 10px;
+				width: 60px;
+				height: auto;
+			}
+			form {
+				input[type=submit] {
+					background-size: 13px 13px;
+					margin-top: 14px;
+				}
+				input[type=text] {
+					width: 150px;					
+				}
+			}
+			.header-img {
+				img {
+					display: none;
+				}
+				p {
+					display: none;
+					span {
+						display: none;
+					}
+				}
+			}
+			.price {
+				margin-top: 10px;
+    			margin-left: 5px;
+				p {
+					font-size: 16px;
+				}
+				h2 {
+					font-size: 25px;
+				}
+				span {
+					font-size: 8px;
+					width: 150px;
+				}
+			}
+			a {
+				margin-top: 70px;
+				margin-right: 5px;
+				padding: 4px 10px;
+				font-size: 8px;
+			}
+		}
+	}
+	.content {
+		padding-top: 20px;
+		.wrap-box {
+			width: 250px;
+			.social {
+				width: 250px;
+				img {
+					width: auto;
+					height: 15px;
+					margin: 0 0 0 10px;
+				}
+				p {
+					font-size: 11px;
+				}
+			}
+			.description-text {
+				font-size: 12px;
+				letter-spacing: 0;
+				padding-top: 10px;
+			}
+			.session {
+				.session1 {
+					width: 250px;
+					margin: 10px 0 0 0;
+					height: 150px;
+					p {
+						font-size: 12px;
+					}
+					span {
+						font-size: 12px;
+					}
+				}
+				.session2 {
+					width: 250px;
+					margin-top: 10px;
+					height: 150px;
+					p {
+						font-size: 12px;
+					}
+					span {
+						font-size: 12px;
+					}
+				}				
+			}
+			.row {
+				.row1 {
+					width: 250px;
+					height: 85px;
+					margin: 10px 0 0 0;
+					p {
+						font-size: 10px;
+						margin-bottom: 5px;
+					}
+					span {
+						font-size: 12px;
+					}
+				}
+				.row2 {
+					width: 250px;
+					height: 85px;
+					margin: 50px 0 0 0;
+					p {
+						font-size: 10px;
+						margin-bottom: 5px;
+					}
+					span {
+						font-size: 12px;
+					}
+				}
+				.row3 {
+					width: 250px;
+					height: 85px;
+					margin: -20px 0 0 0;
+					p {
+						font-size: 10px;
+						margin-bottom: 5px;
+					}
+					span {
+						font-size: 12px;
+					}
+				}
+			}
+			.location {
+				margin-top: 10px;
+				p {
+					font-size: 20px;
+					padding-top: 20px;
+				}
+				span {
+					font-size: 8px;
+				}
+				a {
+					font-size: 8px;
+					padding: 4px 8px;
+					margin-bottom: 10px;
+    				margin-top: 5px;
+				}
+				img {
+					width: 250px;
+					height: 100px;
+				}
+			}
+			.cancel {
+				padding: 15px 0;
+			}
+			.cancel-text {
+				font-size: 12px;
+				letter-spacing: 0;
+			}
+			.events {
+				font-size: 20px;
+				padding-top: 20px;
+			}
+			.choose {
+				font-size: 10px;
+			}
+			.content-bottom {
+				img {
+					width: 250px;
+					height: auto;
+				}
+				p {
+					margin: -236px 0 0 164px;
+				}
+			}
+			.content-bottom-last {
+				img {
+					width: 250px;
+					height: auto;
+				}
+				p {
+					margin: -236px 0 0 164px;
+				}
+			}
+		}
+	}
+}
+
 

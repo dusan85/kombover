@@ -515,7 +515,7 @@ main .wrap-box .content-bottom .hairs9 p {
   }
 }
 
-@media only screen and (max-width: 559px) {
+@media only screen and (min-width: 330px) and (max-width: 559px) {
   header {
     height: 250px;
   }
@@ -588,6 +588,86 @@ main .wrap-box .content-bottom .hairs9 p {
     height: 329px;
     background-size: 250px 329px;
     margin: 0 0 10px 50px;
+  }
+}
+
+@media only screen and (max-width: 329px) {
+  header {
+    height: 200px;
+  }
+  header .header-wrap {
+    width: 250px;
+    margin: 0 auto;
+  }
+  header .header-wrap .logo {
+    float: none;
+    margin: 0 auto 0 5px;
+    padding-top: 5px;
+    width: 60px;
+    height: auto;
+  }
+  header .header-wrap h1 {
+    font-size: 18px;
+    width: 150px;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  header .header-wrap h1 p {
+    font-size: 8px;
+    margin-top: 5px;
+  }
+  header .header-wrap .main-pic {
+    margin-top: -204px;
+    width: 125px;
+    height: auto;
+  }
+  main {
+    height: 3150px;
+  }
+  main .wrap-box {
+    width: 250px;
+    margin: 0 auto;
+  }
+  main .wrap-box .search {
+    width: 250px;
+    height: 60px;
+  }
+  main .wrap-box .search ul li {
+    margin: 15px 10px 0px 9px;
+  }
+  main .wrap-box .search ul li p {
+    font-size: 8px;
+  }
+  main .wrap-box .search ul li img {
+    margin: 5px 0 0 5px;
+    width: 8px;
+    height: auto;
+  }
+  main .wrap-box .search form input[type=text] {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    background-color: #fff;
+    outline: none;
+    font-size: 8px;
+    margin-top: 10px;
+    width: 100px;
+  }
+  main .wrap-box .search form input[type=submit] {
+    font-size: 8px;
+    background-color: #3d4144;
+    margin: 10px 5px 0 0;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 2px 8px;
+  }
+  main .wrap-box .content-bottom {
+    margin-top: 50px;
+  }
+  main .wrap-box .content-bottom .hair {
+    width: 250px;
+    height: 329px;
+    background-size: 250px 329px;
+    margin: 0 0 10px 0;
   }
 }
 
@@ -1211,7 +1291,7 @@ main .wrap-box .content-bottom .hairs9 p {
   }
 }
 
-@media only screen and (max-width: 619px) {
+@media only screen and (min-width: 360px) and (max-width: 619px) {
   .header {
     height: 250px;
   }
@@ -1333,7 +1413,7 @@ main .wrap-box .content-bottom .hairs9 p {
     font-size: 12px;
   }
   .content .wrap-box .content-bottom {
-    margin-left: 30px;
+    margin-left: 50px;
   }
   .content .wrap-box .content-bottom img {
     width: 250px;
@@ -1343,7 +1423,185 @@ main .wrap-box .content-bottom .hairs9 p {
     margin: -236px 0 0 164px;
   }
   .content .wrap-box .content-bottom-last {
-    margin-left: 30px;
+    margin-left: 50px;
+  }
+  .content .wrap-box .content-bottom-last img {
+    width: 250px;
+    height: auto;
+  }
+  .content .wrap-box .content-bottom-last p {
+    margin: -236px 0 0 164px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .header {
+    height: 135px;
+  }
+  .header .wrap-box {
+    width: 250px;
+  }
+  .header .wrap-box .logo {
+    margin: 10px 0 0 10px;
+    width: 60px;
+    height: auto;
+  }
+  .header .wrap-box form input[type=submit] {
+    background-size: 13px 13px;
+    margin-top: 14px;
+  }
+  .header .wrap-box form input[type=text] {
+    width: 150px;
+  }
+  .header .wrap-box .header-img img {
+    display: none;
+  }
+  .header .wrap-box .header-img p {
+    display: none;
+  }
+  .header .wrap-box .header-img p span {
+    display: none;
+  }
+  .header .wrap-box .price {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .header .wrap-box .price p {
+    font-size: 16px;
+  }
+  .header .wrap-box .price h2 {
+    font-size: 25px;
+  }
+  .header .wrap-box .price span {
+    font-size: 8px;
+    width: 150px;
+  }
+  .header .wrap-box a {
+    margin-top: 70px;
+    margin-right: 5px;
+    padding: 4px 10px;
+    font-size: 8px;
+  }
+  .content {
+    padding-top: 20px;
+  }
+  .content .wrap-box {
+    width: 250px;
+  }
+  .content .wrap-box .social {
+    width: 250px;
+  }
+  .content .wrap-box .social img {
+    width: auto;
+    height: 15px;
+    margin: 0 0 0 10px;
+  }
+  .content .wrap-box .social p {
+    font-size: 11px;
+  }
+  .content .wrap-box .description-text {
+    font-size: 12px;
+    letter-spacing: 0;
+    padding-top: 10px;
+  }
+  .content .wrap-box .session .session1 {
+    width: 250px;
+    margin: 10px 0 0 0;
+    height: 150px;
+  }
+  .content .wrap-box .session .session1 p {
+    font-size: 12px;
+  }
+  .content .wrap-box .session .session1 span {
+    font-size: 12px;
+  }
+  .content .wrap-box .session .session2 {
+    width: 250px;
+    margin-top: 10px;
+    height: 150px;
+  }
+  .content .wrap-box .session .session2 p {
+    font-size: 12px;
+  }
+  .content .wrap-box .session .session2 span {
+    font-size: 12px;
+  }
+  .content .wrap-box .row .row1 {
+    width: 250px;
+    height: 85px;
+    margin: 10px 0 0 0;
+  }
+  .content .wrap-box .row .row1 p {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .content .wrap-box .row .row1 span {
+    font-size: 12px;
+  }
+  .content .wrap-box .row .row2 {
+    width: 250px;
+    height: 85px;
+    margin: 50px 0 0 0;
+  }
+  .content .wrap-box .row .row2 p {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .content .wrap-box .row .row2 span {
+    font-size: 12px;
+  }
+  .content .wrap-box .row .row3 {
+    width: 250px;
+    height: 85px;
+    margin: -20px 0 0 0;
+  }
+  .content .wrap-box .row .row3 p {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .content .wrap-box .row .row3 span {
+    font-size: 12px;
+  }
+  .content .wrap-box .location {
+    margin-top: 10px;
+  }
+  .content .wrap-box .location p {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .content .wrap-box .location span {
+    font-size: 8px;
+  }
+  .content .wrap-box .location a {
+    font-size: 8px;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  .content .wrap-box .location img {
+    width: 250px;
+    height: 100px;
+  }
+  .content .wrap-box .cancel {
+    padding: 15px 0;
+  }
+  .content .wrap-box .cancel-text {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .content .wrap-box .events {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .content .wrap-box .choose {
+    font-size: 10px;
+  }
+  .content .wrap-box .content-bottom img {
+    width: 250px;
+    height: auto;
+  }
+  .content .wrap-box .content-bottom p {
+    margin: -236px 0 0 164px;
   }
   .content .wrap-box .content-bottom-last img {
     width: 250px;
